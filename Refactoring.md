@@ -10,6 +10,6 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 
 ## Your Explanation Here
 
-It has unnecessary/redundant if else structure
-Candiate anyways returned as string so dont have to check for  its typeof.
-TRIVIAL_PARTITION_KEY can be directly an initial value of candidate, so no need to define it separately as its not  used anywhere.
+1) It has unnecessary/redundant if else structure
+2) Candiate anyways returned as string so dont have to check for  its typeof.
+3) TRIVIAL_PARTITION_KEY can be directly an initial value of candidate, so no need to define it separately as its not  used anywhere.
