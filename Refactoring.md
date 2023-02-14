@@ -9,3 +9,7 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+It has unnecessary/redundant if else structure
+Candiate anyways returned as string so dont have to check for  its typeof.
+TRIVIAL_PARTITION_KEY can be directly an initial value of candidate, so no need to define it separately as its not  used anywhere.
